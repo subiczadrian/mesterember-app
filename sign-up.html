@@ -19,27 +19,24 @@
         action="process-sign-up.php"
         method="post"
         id="sign-up-form"
-        class="needs-validation"
         onsubmit="return validateForm()"
-        novalidate
       >
         <div class="mb-3">
           <input
             type="text"
             class="form-control"
             id="username-input"
-            placeholder="Felhasználónév"
+            placeholder="Felhasználónév*"
             name="username"
             required
           />
-          <div class="invalid-feedback">A mező kitöltése kötelező!</div>
         </div>
         <div class="mb-3">
           <input
             type="email"
             class="form-control"
             id="email-input"
-            placeholder="Email cím"
+            placeholder="Email cím*"
             name="email"
             required
           />
@@ -49,7 +46,7 @@
             type="password"
             class="form-control"
             id="password-input"
-            placeholder="Jelszó"
+            placeholder="Jelszó*"
             name="password"
             required
           />
@@ -59,7 +56,7 @@
             type="password"
             class="form-control"
             id="confirm-password-input"
-            placeholder="Jelszó megerősítése"
+            placeholder="Jelszó megerősítése*"
             name="confirm-password"
             required
           />
