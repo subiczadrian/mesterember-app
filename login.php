@@ -1,4 +1,6 @@
 <?php
+    $is_invalid = false;
+
     if($_SERVER['REQUEST_METHOD'] === 'POST'){
         $mysqli = require __DIR__ . '/database.php';
 
@@ -8,8 +10,18 @@
 
         $user = $result -> fetch_assoc();
 
-        var_dump($user);
-        exit;
+        if($user){
+         if( password_verify($_POST["password"], $user["password_hash"])){
+          session_start();
+
+          $_SESSION["user_id"] = $user["id"];
+          header('Location: index.php');
+          exit;
+
+         }
+        };
+
+        $is_invalid = true;
     }
 ?>
 
@@ -30,6 +42,10 @@
   <body>
     <div class="container">
       <h1>Bejelentkezés</h1>
+
+      <?php if($is_invalid): ?>
+        <em>Helytelen felhasználónév és/vagy jelszó!</em>
+      <?php endif; ?>
 
       <form id="login-form" method="post">
       <div class="mb-3">
