@@ -4,6 +4,7 @@ const passwordInput = document.getElementById('password-input');
 const confirmPasswordInput = document.getElementById('confirm-password-input');
 const usernameInput = document.getElementById('username-input');
 const emailInput = document.getElementById('email-input');
+const loginButton = document.getElementById('login-button');
 
 function validatePassword(password) {
   const regex = /^(?=.*\d)(?=.*[A-Z])[a-zA-Z\d]{8,}$/;

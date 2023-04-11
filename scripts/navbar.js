@@ -38,7 +38,7 @@ document.write(`<nav class="navbar navbar-expand-lg bg-body-tertiary">
       </li>
     </ul>
   </div>
-  <button class="btn">
+  <button class="btn" id="login-button">
     <a class="nav-link" aria-current="page" href="./login.php">Bejelentkezés</a>
   </button>
 </div>
