@@ -23,7 +23,6 @@ document.write(`<nav class="navbar navbar-expand-lg bg-body-tertiary">
       <li class="nav-item dropdown">
         <a
           class="nav-link dropdown-toggle"
-          href="index.html"
           role="button"
           data-bs-toggle="dropdown"
           aria-expanded="false"
