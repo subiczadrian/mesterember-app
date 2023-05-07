@@ -38,7 +38,10 @@
     </ul>
   </div>
   <button class="btn" id="login-button">
-    <a class="nav-link" id="login" aria-current="page" href="./login.php">Bejelentkezés</a>
+    <a class="nav-link navbar-btn" aria-current="page" href="./login.php">Bejelentkezés</a>
+  </button>
+  <button class="btn" id="signup-button">
+    <a class="nav-link navbar-btn" aria-current="page" href="./sign-up.html">Regisztráció</a>
   </button>
 </div>
 </nav>

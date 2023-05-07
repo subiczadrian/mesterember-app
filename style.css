@@ -9,6 +9,15 @@ nav {
   font-size: larger;
 }
 
+.nav-item {
+  transition: 0.3s;
+}
+
+.nav-item:hover {
+  background-color: rgb(240, 240, 233);
+  transition: 0.3s;
+}
+
 #navbar-logo {
   width: 60px;
   height: 50px;
@@ -19,7 +28,7 @@ nav {
   width: fit-content;
 }
 
-#login {
+.navbar-btn {
   border: solid;
   border-color: black;
   padding: 5px;
