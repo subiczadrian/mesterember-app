@@ -1,47 +1,337 @@
-body {
-    background-color: rgb(147, 200, 244);
-}
-.field-title {
-    background-color: rgb(31, 38, 57, 0.7);
-    font-size: xx-large;
-    color: rgb(233, 223, 223);
-}
-#Reagan-quote {
-    font-size: larger;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-}
-.ad {
-    font-size: large;
-    font-weight: 600;
-    background-color: rgb(255, 255, 255);
-    border-style: solid;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+/* NAVIGATION BAR */
 
+nav {
+  background-color: rgba(1, 0, 5, 0.7);
+}
+
+.nav-link {
+  color: rgb(207, 245, 17);
+  font-size: larger;
+}
+
+#navbar-logo {
+  width: 60px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.navbar-brand {
+  width: fit-content;
+}
+
+#login {
+  border: solid;
+  border-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgb(109, 152, 198);
+  color: black;
+  font-size: larger;
+}
+
+/* BACKGROUND */
+
+body {
+  background-image: url(img/utilities_and_energy_crm.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.cover {
+  background-size: 100% 100%;
+}
+
+/* GLOBAL ENTRIES */
+
+.field-title1 {
+  background-color: rgb(31, 38, 57, 0.7);
+  font-size: xx-large;
+  color: rgb(233, 223, 223);
+  border-radius: 10px;
+  width: max-content;
+  clear: both;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.field-title2 {
+  background-color: rgb(31, 38, 57, 0.7);
+  font-size: xx-large;
+  color: rgb(233, 223, 223);
+  border-radius: 10px;
+  width: max-content;
+  clear: both;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.field-title3 {
+  background-color: rgb(31, 38, 57, 0.7);
+  border-radius: 10px;
+  font-size: xx-large;
+  color: rgb(233, 223, 223);
+  width: max-content;
+  clear: both;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.units {
+  font-size: large;
+  color: rgb(233, 223, 223);
+  border-color: black;
+  background-color: rgb(31, 38, 57, 0.7);
+}
+
+/* Anchor Link To Sections */
+
+.anchorlinks {
+  background-color: rgb(31, 38, 57);
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+#al-electricity {
+  color: gold;
+  width: 205px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: 25%;
+}
+
+#al-water {
+  color: rgb(59, 140, 215);
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10%;
+}
+
+#al-gas {
+  color: green;
+  width: 118px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10%;
+}
+
+#gas-logo {
+  width: 30%;
+  height: 70%;
+  display: flex;
+  float: right;
+  margin-top: 5px;
+  text-align: center;
+  padding-right: 5px;
+}
+
+#water-logo {
+  width: 35%;
+  display: flex;
+  float: right;
+  text-align: center;
+  padding-right: 5px;
+}
+
+#electricity-logo {
+  width: 25%;
+  height: 80%;
+  display: flex;
+  float: right;
+  margin-top: 5px;
+  text-align: center;
+  padding-right: 5px;
+}
+
+/*Anchor Link To Top */
+
+#anchorlinktop {
+  color: aliceblue;
+  width: 260px;
+  height: 32px;
+  font-size: larger;
+  font-weight: 400;
+  margin: auto;
+  text-align: center;
+  display: table;
+  border-radius: 25px;
+  background-color: rgb(31, 38, 57);
+}
+
+#up-arrow1 {
+  width: 30px;
+  height: 30px;
+  filter: invert();
+  display: flex;
+  float: left;
+  padding-left: 5px;
+}
+
+#up-arrow2 {
+  width: 30px;
+  height: 30px;
+  filter: invert();
+  display: flex;
+  float: right;
+  padding-right: 5px;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(31, 38, 57, 0.7);
+  font-size: larger;
+  color: rgb(233, 223, 223);
+  clear: both;
+  border: solid black;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px;
+  height: 35px;
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* Cutter */
+
+hr.rounded {
+  border-top: 8px solid #000000;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+/* COMPANY INFOS */
+
+.ad {
+  font-size: large;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
 }
 .ad-pic {
-    background: transparent;
-    width: 60px;
-    height: 40px;
+  background: transparent;
+  width: 60px;
+  height: 40px;
 }
-.cover {
-    background-size: 100% 100%;
+
+#Reagan-quote {
+  font-size: larger;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
 }
-.units {
-    background-color: rgb(31, 38, 57, 0.7);
-    font-size: larger;
-    color: rgb(233, 223, 223);
+
+.leader-id {
+  color: rgb(233, 223, 223);
+  font-size: large;
+  font-weight: 600;
+  background-color: rgb(31, 38, 57, 0.7);
+  border-style: solid;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
 }
-footer {
-    background-color: rgb(31, 38, 57, 0.7);
-    font-size: larger;
-    color: rgb(233, 223, 223);
-    text-align: center;
-    margin-bottom: 0px;
+.company-id {
+  color: rgb(233, 223, 223);
+  font-size: large;
+  font-weight: 600;
+  background-color: rgb(31, 38, 57, 0.7);
+  border-style: solid;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
 }
-nav {
-    color: white;
+
+/* INTERIOR */
+
+.int-desc {
+  color: rgb(233, 223, 223);
+  font-size: large;
+  font-weight: 600;
+  background-color: rgb(31, 38, 57, 0.7);
+  border-style: solid;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+}
+
+/* EXTERIOR */
+
+.ext-desc {
+  color: rgb(233, 223, 223);
+  font-size: large;
+  font-weight: 600;
+  background-color: rgb(31, 38, 57, 0.7);
+  border-style: solid;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: black;
+}
+
+/* UTILITIES */
+
+.desc-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ut-desc {
+  color: rgb(233, 223, 223);
+  font-size: xx-large;
+  font-weight: 600;
+  background-color: rgb(31, 38, 57, 0.7);
+  width: 300px;
+  text-align: center;
+}
+
+#powerin-pic {
+  display: flex;
+  width: 100%;
+  filter: invert();
+  vertical-align: top;
+}
+
+#waterin-pic {
+  display: flex;
+  width: 100%;
+  filter: invert();
+  vertical-align: top;
+}
+
+#gasin-pic {
+  display: flex;
+  width: 100%;
+  filter: invert();
+  vertical-align: top;
 }
