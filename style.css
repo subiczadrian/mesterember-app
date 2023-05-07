@@ -47,7 +47,7 @@ body {
 .field-title1 {
   background-color: rgb(31, 38, 57, 0.7);
   font-size: xx-large;
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   border-radius: 10px;
   width: max-content;
   clear: both;
@@ -61,7 +61,7 @@ body {
 .field-title2 {
   background-color: rgb(31, 38, 57, 0.7);
   font-size: xx-large;
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   border-radius: 10px;
   width: max-content;
   clear: both;
@@ -76,7 +76,7 @@ body {
   background-color: rgb(31, 38, 57, 0.7);
   border-radius: 10px;
   font-size: xx-large;
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   width: max-content;
   clear: both;
   margin-bottom: 30px;
@@ -88,7 +88,7 @@ body {
 
 .units {
   font-size: large;
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   border-color: black;
   background-color: rgb(31, 38, 57, 0.7);
 }
@@ -203,7 +203,7 @@ body {
 footer {
   background-color: rgb(31, 38, 57, 0.7);
   font-size: larger;
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   clear: both;
   border: solid black;
   width: fit-content;
@@ -229,7 +229,7 @@ hr.rounded {
 .ad {
   font-size: large;
   font-weight: 600;
-  background-color: rgb(255, 255, 255);
+  background-color: aliceblue;
   border-style: solid;
   width: fit-content;
   margin-left: auto;
@@ -245,11 +245,11 @@ hr.rounded {
   font-size: larger;
   text-align: center;
   text-transform: uppercase;
-  color: white;
+  color: aliceblue;
 }
 
 .leader-id {
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   font-size: large;
   font-weight: 600;
   background-color: rgb(31, 38, 57, 0.7);
@@ -260,7 +260,7 @@ hr.rounded {
   border-color: black;
 }
 .company-id {
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   font-size: large;
   font-weight: 600;
   background-color: rgb(31, 38, 57, 0.7);
@@ -274,7 +274,7 @@ hr.rounded {
 /* INTERIOR */
 
 .int-desc {
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   font-size: large;
   font-weight: 600;
   background-color: rgb(31, 38, 57, 0.7);
@@ -288,7 +288,7 @@ hr.rounded {
 /* EXTERIOR */
 
 .ext-desc {
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   font-size: large;
   font-weight: 600;
   background-color: rgb(31, 38, 57, 0.7);
@@ -304,34 +304,40 @@ hr.rounded {
 .desc-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .ut-desc {
-  color: rgb(233, 223, 223);
+  color: aliceblue;
   font-size: xx-large;
   font-weight: 600;
   background-color: rgb(31, 38, 57, 0.7);
   width: 300px;
   text-align: center;
+  border-radius: 5px;
+  height: 495px;
 }
 
 #powerin-pic {
   display: flex;
-  width: 100%;
+  width: 40%;
   filter: invert();
   vertical-align: top;
+  margin: auto;
 }
 
 #waterin-pic {
   display: flex;
-  width: 100%;
+  width: 40%;
   filter: invert();
   vertical-align: top;
+  margin: auto;
 }
 
 #gasin-pic {
   display: flex;
-  width: 100%;
+  width: 40%;
   filter: invert();
   vertical-align: top;
+  margin: auto;
 }
