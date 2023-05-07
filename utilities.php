@@ -18,7 +18,7 @@
   <body>
     <!-- NavBar -->
     <h2 id="top"></h2>
-    <script src="scripts/navbar.js"></script>
+    <?php require_once('navbar.php') ?>
 
     <br />
 
@@ -61,16 +61,15 @@
     <h2 class="field-title1" id="al-ft1">Villanyszerelőink:</h2>
     <p class="units">
       Név: Magneto <br />
-      Szakképzettség: Villám gyors, nagyon precíz, csak úgy vonzza magához a
-      munkát és a pénzedet. <br />
+      Szakképzettség: Villám gyors, nagyon precíz, csak úgy vonzza magához a munkát és a pénzedet.
+      <br />
       Referencia: X-Men <br />
       Elérhetőség: +36 30/146-8642
     </p>
 
     <p class="units">
       Név: Son Goku <br />
-      Szakképzettség: Barátaival rendszeresen áramot lop, a hatóságok eddig nem
-      kapták el. <br />
+      Szakképzettség: Barátaival rendszeresen áramot lop, a hatóságok eddig nem kapták el. <br />
       Referencia: A haja <br />
       Elérhetőség: +36 70/999-6969
     </p>
@@ -90,8 +89,7 @@
     </p>
     <p class="units">
       Név: Arthur Curry (alias: Aquaman) <br />
-      Szakképzettség: Atlantiszi Egyetem vízszerelői OKJ, tökre hasonlít Jason
-      Momoa-ra. <br />
+      Szakképzettség: Atlantiszi Egyetem vízszerelői OKJ, tökre hasonlít Jason Momoa-ra. <br />
       Referencia: Atlantisz, igaz, hogy már elsüllyedt <br />
       Elérhetőség: +36 1/691-4951
     </p>
@@ -104,15 +102,14 @@
     <h2 class="field-title3" id="al-ft3">Gáz szerelőink:</h2>
     <p class="units">
       Név: Vlagyimir Putyin <br />
-      Szakképzettség: Orosz Gázművek, mostanság inkább elzárja mintsem beköti,
-      de olcsó <br />
+      Szakképzettség: Orosz Gázművek, mostanság inkább elzárja mintsem beköti, de olcsó <br />
       Referencia: az anyaország <br />
       Elérhetőség: +7 (954) 753-08-15
     </p>
     <p class="units">
       Név: John D. Rockefeller <br />
-      Szakképzettség: USA Petroleum Engineer. Nem csak beköti, de még egy
-      fúrótornyot is ás a kertbe. <br />
+      Szakképzettség: USA Petroleum Engineer. Nem csak beköti, de még egy fúrótornyot is ás a
+      kertbe. <br />
       Referencia: Igazából az egész világ <br />
       Elérhetőség: +1 (800) 357-0069
     </p>

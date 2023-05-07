@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>EM - Kültér</title>
+    <title>EM - Beltér</title>
 
     <!-- Background -->
 
@@ -25,66 +25,60 @@
     </style>
   </head>
   <body>
-    <script src="scripts/navbar.js"></script>
+    <?php require_once('navbar.php') ?>
 
     <br />
 
     <!-- Description -->
 
-    <p class="ext-desc">
-      A kültér olyan mint egy nő. Természetesen is szék, de lefestve a legszebb.
-      Ezen elv alapján igyekszünk a lehető legolcsóbb alapjanyagokkal a
-      legprofesszionálisabban kinéző munkát elvégezni. <br />
-      Az előítéletes külsőségek kialakítás végett szigetelünk, külső burkolás és
-      festést is végrehajtunk.
-    </p>
-
-    <br />
-
-    <!-- Szigetelők és burkolók -->
-
-    <p class="field-title"><ins>Szigetelőink és Burkolóink:</ins></p>
-
-    <p class="units">
-      Név: Koszos Ernő <br />
-      Szakképzettség: A vérében van, apjával Koszos Gézával számtalan házat
-      szigeteltek már le, burkolás terén meg tanfolyamokra járt szertárosként.
+    <p class="int-desc">
+      A beltér egy ház szíve, lelke. Szép házban kényelmesedik el az ember, ezért készítünk csúnya
+      belsőt, hogy ne kényelmesedjen el az ember. <br />
+      Figyelmeztetés! <br />
+      Miután Józsi felmondott nálunk, ellopta az egyetlen vízmértéket, szóval nem megy az egyenes.
       <br />
-      Referencia: "Jó van az úgy!" Facebook csoport. <br />
-      Elérhetőség: +36 1/268-6601
+      Figyelmeztetés! <br />
+      Lakatos munkát nem tudunk végezni, mivel Kalányos MájkülDzsekszont tegnap elvitték a Jagellók.
     </p>
-
     <br />
+
+    <!-- Burkolók -->
+
+    <p class="field-title"><ins>Burkolóink:</ins></p>
 
     <p class="units">
-      Név: Ördög József <br />
-      Szakképzettség: "Pokolian Jó szigetelés" Online kurzus és "Halálian Jó
-      csúszós erkély" FOSZK képzés <br />
-      Referencia: Adolf Hitler (✝), Saddam Hussein (✝), Ossama Bin Laden (✝),
-      2Pac (✝) <br />
-      Elérhetőség: +36 70/666-0666
+      Név: Gipsz Jakab <br />
+      Szakképzettség: Lego szedés,tehergépkocsi szerelés, gipszkarton felrakás (OKJ) <br />
+      Referencia: "Jó van az úgy!" Facebook csoport. <br />
+      Elérhetőség: +36 52/753-9512
+    </p>
+
+    <p class="units">
+      Név: Kőműves Kelemen <br />
+      Szakképzettség: Csempe felrakás (kis mérték), csempe leverés a fallal együtt (mesterfokon)
+      <br />
+      Referencia: Terike néni (✝) <br />
+      Elérhetőség: +36 70/456-3219
     </p>
 
     <br />
 
-    <!-- Painter (Exterior) -->
+    <!-- Painter (Interior) -->
 
     <p class="field-title"><ins>Festőink:</ins></p>
 
     <p class="units">
-      Név: Vollern Ferenc <br />
-      Szakképzettség: "Szent Marci megkereszteli édesanyját." <br />
-      Referencia: Ferenc Pápa <br />
-      Elérhetőség: +36 30/195-5505
+      Név: Kiss Ernő<br />
+      Szakképzettség: Étel festés, húsvéti tojás festés<br />
+      Referencia: Napsugár Óvoda Katica Csoport <br />
+      Elérhetőség: +36 20/321-7894
     </p>
 
-    <br />
-
     <p class="units">
-      Név: Kiss Béla <br />
-      Szakképzettség: Tempera mester, szülei elmondása szerint Ő az új Picasso,
-      Kiss Ernő testvére <br />
-      Referencia: A szülei és Kiss Ernő <br />
+      Név: Iksz Ipszilon <br />
+      Szakképzettség: Tempera mester, szülei elmondása szerint Ő az új Picasso
+      <br />
+      Referencia: A szülei <br />
       Elérhetőség: +36 30/741-5974
     </p>
 

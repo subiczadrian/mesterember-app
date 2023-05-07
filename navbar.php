@@ -1,4 +1,4 @@
-document.write(`<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg">
 <div class="container-fluid">
   <a class="navbar-brand" href="index.php"><img id="navbar-logo" src="img/Logo.jpg"></a>
   <button
@@ -18,7 +18,7 @@ document.write(`<nav class="navbar navbar-expand-lg">
         <a class="nav-link" aria-current="page" href="./index.php">Kezdőlap</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="company-information.html">Céginformáció</a>
+        <a class="nav-link" href="company-information.php">Céginformáció</a>
       </li>
       <li class="nav-item">
         <a
@@ -30,9 +30,9 @@ document.write(`<nav class="navbar navbar-expand-lg">
           Munkatársaink
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="interior.html">Beltér</a></li>
-          <li><a class="dropdown-item" href="exterior.html">Kültér</a></li>
-          <li><a class="dropdown-item" href="utilities.html">Közművek</a></li>
+          <li><a class="dropdown-item" href="interior.php">Beltér</a></li>
+          <li><a class="dropdown-item" href="exterior.php">Kültér</a></li>
+          <li><a class="dropdown-item" href="utilities.php">Közművek</a></li>
         </ul>
       </li>
     </ul>
@@ -41,4 +41,4 @@ document.write(`<nav class="navbar navbar-expand-lg">
     <a class="nav-link" id="login" aria-current="page" href="./login.php">Bejelentkezés</a>
   </button>
 </div>
-</nav>`);
+</nav>
