@@ -1,6 +1,6 @@
-document.write(`<nav class="navbar navbar-expand-lg bg-body-tertiary">
+document.write(`<nav class="navbar navbar-expand-lg">
 <div class="container-fluid">
-  <a class="navbar-brand" href="index.html">Mesteremberek</a>
+  <a class="navbar-brand" href="index.php"><img id="navbar-logo" src="img/Logo.jpg"></a>
   <button
     class="navbar-toggler"
     type="button"
@@ -18,9 +18,9 @@ document.write(`<nav class="navbar navbar-expand-lg bg-body-tertiary">
         <a class="nav-link" aria-current="page" href="./index.php">Kezdőlap</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Céginformáció.html">Céginformáció</a>
+        <a class="nav-link" href="company-information.html">Céginformáció</a>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item">
         <a
           class="nav-link dropdown-toggle"
           role="button"
@@ -30,15 +30,15 @@ document.write(`<nav class="navbar navbar-expand-lg bg-body-tertiary">
           Munkatársaink
         </a>
         <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="Beltér.html">Beltér</a></li>
-          <li><a class="dropdown-item" href="Kültér.html">Kültér</a></li>
-          <li><a class="dropdown-item" href="Közművek.html">Közművek</a></li>
+          <li><a class="dropdown-item" href="interior.html">Beltér</a></li>
+          <li><a class="dropdown-item" href="exterior.html">Kültér</a></li>
+          <li><a class="dropdown-item" href="utilities.html">Közművek</a></li>
         </ul>
       </li>
     </ul>
   </div>
   <button class="btn" id="login-button">
-    <a class="nav-link" aria-current="page" href="./login.php">Bejelentkezés</a>
+    <a class="nav-link" id="login" aria-current="page" href="./login.php">Bejelentkezés</a>
   </button>
 </div>
 </nav>`);
