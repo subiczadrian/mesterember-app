@@ -10,7 +10,7 @@
     aria-expanded="false"
     aria-label="Toggle navigation"
   >
-    <span class="navbar-toggler-icon"></span>
+  <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
@@ -37,9 +37,16 @@
       </li>
     </ul>
   </div>
-  <button class="btn" id="login-button">
-    <a class="nav-link navbar-btn" aria-current="page" href="./login.php">Bejelentkezés</a>
-  </button>
+  <?php if(isset($_SESSION["user_id"])): ?>
+    <button class="btn" id="login-button">
+      <a class="nav-link navbar-btn" aria-current="page" href="./logout.php">Kijelentkezés</a>
+    </button>
+  <?php else: ?>
+    <button class="btn" id="login-button">
+      <a class="nav-link navbar-btn" aria-current="page" href="./login.php">Bejelentkezés</a>
+    </button>
+  <?php endif; ?>
+
   <button class="btn" id="signup-button">
     <a class="nav-link navbar-btn" aria-current="page" href="./sign-up.html">Regisztráció</a>
   </button>

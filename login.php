@@ -11,7 +11,7 @@
         $user = $result -> fetch_assoc();
 
         if($user){
-         if( password_verify($_POST["password"], $user["password_hash"])){
+         if(password_verify($_POST["password"], $user["password_hash"])){
           session_start();
 
           $_SESSION["user_id"] = $user["id"];

@@ -26,7 +26,7 @@
     <title>Kezdőlap</title>
 </head>
 <body>
-    <script src="scripts/navbar.js"></script>
+    <?php require_once('navbar.php') ?>
 
     <!-- Leírás -->
 

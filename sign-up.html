@@ -15,12 +15,7 @@
   <body>
     <div class="container">
       <h1>Regisztráció</h1>
-      <form
-        action="process-sign-up.php"
-        method="post"
-        id="sign-up-form"
-        onsubmit="return validateForm()"
-      >
+      <form action="process-sign-up.php" method="post" id="sign-up-form">
         <div class="mb-3">
           <input
             type="text"
@@ -61,9 +56,7 @@
             required
           />
         </div>
-        <button class="btn btn-primary" id="submit-button" type="submit" disabled>
-          Regisztráció
-        </button>
+        <button class="btn btn-primary" id="submit-button" type="submit">Regisztráció</button>
       </form>
     </div>
 
@@ -77,6 +70,5 @@
       integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
       crossorigin="anonymous"
     ></script>
-    <script src="main.js"></script>
   </body>
 </html>

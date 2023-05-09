@@ -136,7 +136,6 @@
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"
     ></script>
-    <script src="scripts/main.js"></script>
 
     <script src="scripts/popup.js"></script>
   </body>
