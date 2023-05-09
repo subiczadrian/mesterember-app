@@ -20,6 +20,7 @@
       <li class="nav-item">
         <a class="nav-link" href="company-information.php">Céginformáció</a>
       </li>
+      <?php if(isset($_SESSION["user_id"])): ?>
       <li class="nav-item">
         <a
           class="nav-link dropdown-toggle"
@@ -35,6 +36,7 @@
           <li><a class="dropdown-item" href="utilities.php">Közművek</a></li>
         </ul>
       </li>
+      <?php endif; ?>
     </ul>
   </div>
   <?php if(isset($_SESSION["user_id"])): ?>
