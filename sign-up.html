@@ -11,10 +11,11 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Regisztráció</h1>
+    <div class="container" id="sign-up-container">
+      <h1 id="sign-up-header">Regisztráció</h1>
       <form action="process-sign-up.php" method="post" id="sign-up-form">
         <div class="mb-3">
           <input
@@ -23,7 +24,6 @@
             id="username-input"
             placeholder="Felhasználónév*"
             name="username"
-            required
           />
         </div>
         <div class="mb-3">
@@ -33,7 +33,6 @@
             id="email-input"
             placeholder="Email cím*"
             name="email"
-            required
           />
         </div>
         <div class="mb-3">
@@ -43,7 +42,6 @@
             id="password-input"
             placeholder="Jelszó*"
             name="password"
-            required
           />
         </div>
         <div class="mb-3">
@@ -53,10 +51,11 @@
             id="confirm-password-input"
             placeholder="Jelszó megerősítése*"
             name="confirm-password"
-            required
           />
         </div>
-        <button class="btn btn-primary" id="submit-button" type="submit">Regisztráció</button>
+        <div id="submit-button-container">
+          <button class="btn btn-primary" id="submit-button" type="submit">Regisztráció</button>
+        </div>
       </form>
     </div>
 

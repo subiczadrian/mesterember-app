@@ -28,7 +28,8 @@ nav {
   width: fit-content;
 }
 
-.navbar-btn {
+.navbar-btn,
+#submit-button {
   border: solid;
   border-color: black;
   padding: 5px;
@@ -343,4 +344,30 @@ hr.rounded {
   width: 100%;
   filter: invert();
   vertical-align: top;
+}
+
+/* SIGN UP CONTAINER */
+
+#sign-up-container {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  max-width: 600px;
+  background-color: rgb(31, 38, 57, 0.7);
+  padding: 1.5%;
+  border-radius: 10%;
+}
+
+#sign-up-header {
+  text-align: center;
+  color: rgb(233, 223, 223);
+  margin-bottom: 20px;
+}
+
+#submit-button-container {
+  display: flex;
+  justify-content: end;
+}
+
+#submit-button {
+  width: 200px;
 }
