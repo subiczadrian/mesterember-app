@@ -11,13 +11,17 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Regisztráció</h1>
+    <div class="container" id="sign-up-success-container">
+      <h1 id="sign-up-success-header">Sikeres regisztráció!</h1>
 
-      <p>Sikeres regisztráció!</p>
-      <a class="btn btn-primary" href="login.php">Tovább a bejelentkező oldalra!</a>
+      <div id="forward-to-login-container">
+        <a class="btn btn-primary" href="login.php" id="forward-to-login-btn"
+          >Tovább a bejelentkező oldalra!</a
+        >
+      </div>
     </div>
   </body>
 </html>

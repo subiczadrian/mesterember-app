@@ -38,10 +38,11 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <h1>Bejelentkezés</h1>
+    <div class="container" id="login-container">
+      <h1 id="login-header">Bejelentkezés</h1>
 
       <?php if($is_invalid): ?>
         <em>Helytelen felhasználónév és/vagy jelszó!</em>
@@ -66,7 +67,9 @@
             name="password"
           />
         </div>
-        <button type="submit" class="btn btn-primary">Bejelentkezés</button>
+        <div id="submit-button-container">
+          <button type="submit" class="btn btn-primary" id="submit-button">Bejelentkezés</button>
+        </div>
       </form>
     </div>
   </body>

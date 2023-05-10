@@ -29,7 +29,8 @@ nav {
 }
 
 .navbar-btn,
-#submit-button {
+#submit-button,
+#forward-to-login-btn {
   border: solid;
   border-color: black;
   padding: 5px;
@@ -348,7 +349,9 @@ hr.rounded {
 
 /* SIGN UP CONTAINER */
 
-#sign-up-container {
+#sign-up-container,
+#login-container,
+#sign-up-success-container {
   margin-top: 10%;
   margin-bottom: 10%;
   max-width: 600px;
@@ -357,13 +360,16 @@ hr.rounded {
   border-radius: 10%;
 }
 
-#sign-up-header {
+#sign-up-header,
+#login-header,
+#sign-up-success-header {
   text-align: center;
   color: rgb(233, 223, 223);
   margin-bottom: 20px;
 }
 
-#submit-button-container {
+#submit-button-container,
+#forward-to-login-container {
   display: flex;
   justify-content: end;
 }
