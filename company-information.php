@@ -13,74 +13,92 @@
     <link rel="stylesheet" href="style.css" />
     <title>EM - Céginformációk</title>
 
-    <!-- Background -->
+   <!-- NavBar -->
 
-    <style class="cover">
-      body {
-        background-image: url(utilities_and_energy_crm.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-      }
-    </style>
-  </head>
+   <?php require_once('navbar.php') ?>
 
-  <body>
-    <?php require_once('navbar.php') ?>
+<!-- Advertisement -->
 
-    <!-- Advertisement -->
-    <br />
 
-    <p class="ad">
-      <img src="ad-logo.png" class="ad-pic" /> Tegyen ki hirdetést itt akár
-      4.500.000 Ft.-ért. <img src="ad-logo.png" class="ad-pic" />
-    </p>
+<p class="ad">
+<img src="img/CI_img/ad-logo.png" class="ad-pic" /> Tegyen ki hirdetést itt akár
+4.500.000 Ft.-ért. <img src="img/CI_img/ad-logo.png" class="ad-pic" />
+</p>
 
-    <!-- Informations -->
-    <br />
+<!-- QUOTE -->
+<div></div>
+<p id="Reagan-quote">
+"Az igaz, hogy a kemény munka még senkit sem ölt meg, de minek
+kockáztasson az ember?" -Ronald Reagan- <img src="img/CI_img/Reagen.jpg" id="Reagen-pic">
+</p>
 
-    <p id="Reagan-quote">
-      "Az igaz, hogy a kemény munka még senkit sem ölt meg, de minek
-      kockáztasson az ember?" (Ronald Reagan)
-    </p>
+ <!--Anchor Links-->
 
-    <br />
+ <a class="anchorlinks" id="al-hierarchy" href="#al-ft1">
+    CÉG FELÉPÍTÉSE<img src="img/CI_img/hierarchy-pic.png" id="hierarchy-logo" />
+  </a>
 
-    <p class="leader-id">
-      <ins>Cég neve:</ins> Mesteremberek Színjózanul Ígérem Szolgáltató Kft.
-      <br />
-      <ins>Ügyvezetők:</ins> Subicz Adrián Zsolt <br />
-      Lechner Krisztián
-    </p>
+  <a class="anchorlinks" id="al-informations" href="#al-ft2">
+    INFORMÁCIÓK<img src="img/CI_img/info-pic.png" id="info-logo" />
+  </a>
 
-    <br />
+  <a class="anchorlinks" id="al-stats" href="#al-ft3">
+    STATISZTIKÁK<img src="img/CI_img/stats-pic.png" id="stats-logo" />
+  </a>
+</div>
 
-    <p class="company-id">
-      <ins>Cégjegyzékszám:</ins> 01-09-752364 <br />
-      <ins>Adószám:</ins> nem fizetünk adót, de legalább drágák vagyunk <br />
-      <ins>Székhely:</ins> 1055 Budapest 06, Kossuth Lajos tér 1-3. <br />
-      <ins>Telefonszám (úgy sem vesszük fel):</ins> +36 (1)/123-456 <br />
-      <ins>E-mail:</ins> spamleveletnemkerunk@myvip.com <br />
-      <ins>Számlavezető bank:</ins> Mészá.... Takarékbank Zrt.
-    </p>
+<!-- INFORMATIONS -->
 
-    <br />
+<h2 class="company-sections" id="al-ft1">
+CÉG NEVE ÉS FELÉPÍTÉSE
+</h2>
 
-    <!-- Footer -->
+<p id="company-name">Mesteremberek Színjózanul Ígérem Szolgáltató Kft.</p>
 
-    <footer>
-      <p>Copyright © Magyarország Korm...... Mesteremberek SZJÍ Kft. 2023</p>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
-      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
-      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
-      crossorigin="anonymous"
-    ></script>
-    <script src="scripts/main.js"></script>
-  </body>
-</html>
+<div class="company-hierarchy">
+  <img src="img/CI_img/hierarchy.png" id="hierarchy">
+  <p id="leaders">CEO: Subicz Adrián Zsolt és Lechner Krisztián</p>
+  <p id="nonworkers1"><img src="img/global_img/up-arrow.png" id="down-arrow2"> Ők nem dolgoznak itt</p>
+  <p id="nonworkers2"> Ők sem dolgoznak itt<img src="img/global_img/up-arrow.png" id="down-arrow"></p>
+</div>
+
+<h2 class="company-sections" id="al-ft2">
+INFORMÁCIÓK
+</h2>
+
+<p id="informations">
+<ins>Cégjegyzékszám:</ins> 01-09-752364 <br />
+<ins>Adószám:</ins> nem fizetünk adót, de legalább drágák vagyunk <br />
+<ins>Székhely:</ins> 1055 Budapest 06, Kossuth Lajos tér 1-3. <br />
+<ins>Telefonszám (úgy sem vesszük fel):</ins> +36 (1)/123-456 <br />
+<ins>E-mail:</ins> spamleveletnemkerunk@myvip.com <br />
+<ins>Számlavezető bank:</ins> Mészá.... Takarékbank Zrt.
+</p>
+
+<h2 class="company-sections" id="al-ft3">
+STATISZTIKÁK
+</h2>
+
+<div class="stats">
+<img src="img/CI_img/stat1.jpg" id="stat1">
+<img src="img/CI_img/stat2.jpg" id="stat2">
+<img src="img/CI_img/stat3.jpg" id="stat3">
+<img src="img/CI_img/stat4.jpg" id="stat4">
+<img src="img/CI_img/stat5.jpg" id="stat5">
+<p id="stat-wr1">Ez itt egy statisztika 6 hónapról, csak hogy legyen!</p>
+<p id="stat-wr2">Ez itt egy újabb statisztika, de mi sem tudjuk, hogy miről szól</p>
+<p id="stat-wr3">Ez itt a tavalyi nyereségünk... nem sok!</p>
+<p id="stat-wr4">Ez itt az ellenünk érkezett bejelentések statisztikája!</p>
+<p id="stat-wr5">Itt az áraink alakulása látható!</p>
+</div>
+
+ <!-- AnchorLink to Top -->
+
+ <a id="anchorlinktop" href="#top"
+      ><img id="up-arrow1" src="img/global_img/up-arrow.png" />UGRÁS A LAPTETEJÉRE
+      <img id="up-arrow2" src="img/global_img/up-arrow.png" /></a
+    ><br />
+
+<!-- Footer -->
+
+<?php require_once('footer.php') ?>
