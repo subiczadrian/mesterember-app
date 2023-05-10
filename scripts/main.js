@@ -11,22 +11,30 @@ function validatePassword(password) {
   return regex.test(password);
 }
 
-/* TODO: NÉV HOSSZÁNAK VALIDÁLÁSA */
+submitButton.addEventListener('click', validateUsernameLength);
+
+function validateUsernameLength(event) {
+  event.preventDefault();
+
+  const usernameValue = usernameInput.value.trim();
+
+  if (usernameValue.length <= 3) {
+    alert('A felhasználónév nem lehet rövidebb, mint 3 karakter!');
+  } else if (usernameValue.length >= 15) {
+    alert('A felhasználónév nem lehet hosszabb, mint 15 karakter!');
+  } else {
+    document.forms[0].submit();
+  }
+}
 
 function validateForm() {
   if (passwordInput.value != confirmPasswordInput.value) {
     alert('A jelszavak nem egyeznek!');
     return false;
   }
-
-  if (usernameInput.value.length > 15) {
-    alert('A felhasználónév nem lehet 15 karakternél hosszabb!');
-  } else if (usernameInput.value.length < 3) {
-    alert('A felhasználónév nem lehet 3 karakternél rövidebb!');
-  }
 }
 
-passwordInput.addEventListener('focusout', () => {
+passwordInput.addEventListener('blur', () => {
   if (validatePassword(passwordInput.value)) {
     submitButton.disabled = false;
   } else {
