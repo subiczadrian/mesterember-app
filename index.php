@@ -40,35 +40,37 @@
 <p id="motto-comment">Na mi leginkább a mottónk második valósítjuk meg.</p>
 
 <div class="desc-container container">
-<p class="idx-desc"><img src="img/index_img/cheap.png" id="cheap">
+<p class="idx-desc"><img src="img/index_img/cheap.png" class="desc-pic cheap">
   Kültéri, beltéri munkák elvégzése olcsó anyagokból és teljes színvonaltalansággal!
 </p>
-<p class="idx-desc"><img src="img/index_img/beer.png" id="beer">
+<p class="idx-desc"><img src="img/index_img/beer.png" class="desc-pic beer">
   Mérhetetlen mennyiségű sör elpusztítása a nap minden szakában (töményeket is írtunk)!
 </p>
-<p class="idx-desc"><img src="img/index_img/repair.png" id="repair">
+<p class="idx-desc"><img src="img/index_img/repair.png" class="desc-pic repair">
   Kőzművek kiépítése karbantartása és fejlesztés Budapesten belül.
 </p>
 </div>
 
 <hr class="rounded" />
 
-<p>
-  Szolgáltatásaink Budapest IV. ; V. ; VI. ; VII. ; XIII. ; XIV. és XV. kerületében érhetőek el.
+<p class="budapest">
+  Szolgáltatásaink helyei Budapesten:
 </p>
+
+<img src="img/index_img/budapest-map.jpg" id="map">  
 
 <hr class="rounded" />
 
-<p>Fő tevékenységünk az alábbiak:</p>
-<li><a>Kültéri festés</a></li>
-<li><a>Kültéri burkolás</a></li>
-<li><a>Beltér festés</a></li>
-<li><a>Hidegburkolás</a></li>
-<li><a>Elektromos hálózat kiépítése</a></li>
-<li><a>Gáz bevezetés</a></li>
-<li><a>Vízvezeték kiépítése</a></li>
-<br />
+<p id="main-jobs">Fő tevékenységünk az alábbiak:</p>
 
+<div>
+  <p id="jobs1">Kültéri festés<img src="img/index_img/job-pic1.png" id="job-pic1"></p>
+  <p id="jobs2">Beltér festés<img src="img/index_img/job-pic2.png" id="job-pic2"></p>
+  <p id="jobs3">Elektromos hálózat kiépítése<img src="img/index_img/job-pic3.png" id="job-pic3"></p>
+  <p id="jobs4">Gáz bevezetés<img src="img/index_img/job-pic4.png" id="job-pic4"></p>
+  <p id="jobs5">Vízvezeték kiépítése<img src="img/index_img/job-pic5.png" id="job-pic5"></p>
+  <img src="img/index_img/line.png" id="line">
+</div>
 
     <!-- Footer -->
 
