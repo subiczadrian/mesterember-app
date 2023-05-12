@@ -1,4 +1,4 @@
-/* //Hacker PopUp
+//Hacker PopUp
 
 if (
   window.confirm(
@@ -7,4 +7,3 @@ if (
 ) {
   window.open('https://pranx.com/hacker', '_blank');
 }
- */

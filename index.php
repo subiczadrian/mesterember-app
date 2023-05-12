@@ -65,5 +65,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="scripts/main.js"></script>
+    <script src="scripts/popup.js"></script>
 </body>
 </html>

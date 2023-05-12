@@ -35,12 +35,18 @@ function validateForm() {
 }
 
 passwordInput.addEventListener('blur', () => {
-  if (validatePassword(passwordInput.value)) {
-    submitButton.disabled = false;
-  } else {
+  if (!validatePassword(passwordInput.value)) {
     alert(
       'A jelszónak tartalmaznia kell legalább egy kisbetűt, egy nagybetűt, egy számot, és minimum 8 karakter hosszúságúnak kell lennie!'
     );
     submitButton.disabled = true;
+  }
+});
+
+confirmPasswordInput.addEventListener('blur', () => {
+  if (confirmPasswordInput.value == '') {
+    submitButton.disabled = true;
+  } else if (confirmPasswordInput.value == passwordInput.value) {
+    submitButton.disabled = false;
   }
 });
