@@ -11,46 +11,45 @@
     <title>Kezdőlap</title>
 </head>
 <body>
-    <script src="scripts/navbar.js"></script>
 
-   <!-- NavBar -->
+  <!-- NavBar -->
 
    <?php require_once('navbar.php') ?>
 
-<!-- Description -->
+  <!-- Description -->
 
-<div class="desc-container container">
-<p class="idx-desc"><img src="img/index_img/cheap.png" class="desc-pic cheap">
-  Kültéri, beltéri munkák elvégzése olcsó anyagokból és teljes színvonaltalansággal!
-</p>
-<p class="idx-desc"><img src="img/index_img/beer.png" class="desc-pic beer">
-  Mérhetetlen mennyiségű sör elpusztítása a nap minden szakában (töményeket is írtunk)!
-</p>
-<p class="idx-desc"><img src="img/index_img/repair.png" class="desc-pic repair">
-  Kőzművek kiépítése karbantartása és fejlesztés Budapesten belül.
-</p>
-</div>
+    <div class="desc-container container">
+    <p class="idx-desc"><img src="img/index_img/cheap.png" class="desc-pic cheap">
+      Kültéri, beltéri munkák elvégzése olcsó anyagokból és teljes színvonaltalansággal!
+    </p>
+    <p class="idx-desc"><img src="img/index_img/beer.png" class="desc-pic beer">
+      Mérhetetlen mennyiségű sör elpusztítása a nap minden szakában (töményeket is írtunk)!
+    </p>
+    <p class="idx-desc"><img src="img/index_img/repair.png" class="desc-pic repair">
+      Kőzművek kiépítése karbantartása és fejlesztés Budapesten belül.
+    </p>
+    </div>
 
-<hr class="rounded" />
+    <hr class="rounded" />
 
-<p class="budapest">
-  Szolgáltatásaink helyei Budapesten:
-</p>
+    <p class="budapest">
+      Szolgáltatásaink helyei Budapesten:
+    </p>
 
-<img src="img/index_img/budapest-map.jpg" id="map">  
+    <img src="img/index_img/budapest-map.jpg" id="map">  
 
-<hr class="rounded" />
+    <hr class="rounded" />
 
-<p id="main-jobs">Fő tevékenységünk az alábbiak:</p>
+    <p id="main-jobs">Fő tevékenységünk az alábbiak:</p>
 
-<div>
-  <p id="jobs1">Kültéri festés<img src="img/index_img/job-pic1.png" id="job-pic1"></p>
-  <p id="jobs2">Beltér festés<img src="img/index_img/job-pic2.png" id="job-pic2"></p>
-  <p id="jobs3">Elektromos hálózat kiépítése<img src="img/index_img/job-pic3.png" id="job-pic3"></p>
-  <p id="jobs4">Gáz bevezetés<img src="img/index_img/job-pic4.png" id="job-pic4"></p>
-  <p id="jobs5">Vízvezeték kiépítése<img src="img/index_img/job-pic5.png" id="job-pic5"></p>
-  <img src="img/index_img/line.png" id="line">
-</div>
+    <div>
+      <p id="jobs1">Kültéri festés<img src="img/index_img/job-pic1.png" id="job-pic1"></p>
+      <p id="jobs2">Beltér festés<img src="img/index_img/job-pic2.png" id="job-pic2"></p>
+      <p id="jobs3">Elektromos hálózat kiépítése<img src="img/index_img/job-pic3.png" id="job-pic3"></p>
+      <p id="jobs4">Gáz bevezetés<img src="img/index_img/job-pic4.png" id="job-pic4"></p>
+      <p id="jobs5">Vízvezeték kiépítése<img src="img/index_img/job-pic5.png" id="job-pic5"></p>
+      <img src="img/index_img/line.png" id="line">
+    </div>
 
     <!-- Footer -->
 

@@ -14,9 +14,11 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>EM - Beltér</title>
-
+  </head>
    <!-- NavBar -->
-
+  <body>
+    
+  
   <?php require_once('navbar.php') ?>
 
  <!-- Description -->
