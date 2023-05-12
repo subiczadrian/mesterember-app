@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg">
 <div class="container-fluid">
-  <a class="navbar-brand" href="index.php"><img id="navbar-logo" src="img/Logo.jpg"></a>
+  <a class="navbar-brand" href="index.php"><img id="navbar-logo" src="img/global_img/Logo.jpg"></a>
   <button
     class="navbar-toggler"
     type="button"

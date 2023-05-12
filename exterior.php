@@ -15,38 +15,38 @@
     <link rel="stylesheet" href="style.css" />
     <title>EM - Kültér</title>
 
-    <!-- Background -->
+   <!-- NavBar -->
 
-    <style>
-      body {
-        background-image: url(utilities_and_energy_crm.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-      }
-    </style>
-  </head>
-  <body>
+
   <?php require_once('navbar.php') ?>
-
-    <br />
 
     <!-- Description -->
 
-    <p class="ext-desc">
-      A kültér olyan mint egy nő. Természetesen is szék, de lefestve a legszebb.
-      Ezen elv alapján igyekszünk a lehető legolcsóbb alapjanyagokkal a
-      legprofesszionálisabban kinéző munkát elvégezni. <br />
-      Az előítéletes külsőségek kialakítás végett szigetelünk, külső burkolás és
-      festést is végrehajtunk.
+    <div class="desc-container">
+    <p class="ext-desc"><img src="img/ext_img/exterior-logo1.png" class="desc-pic" id="ext-pic1"> 
+    Az előítéletes külsőségek kialakítás végett szigetelünk és külső burkolást is végrehajtunk.
     </p>
+    <p class="ext-desc"><img src="img/ext_img/exterior-logo2.png" class="desc-pic" id="ext-pic2">
+      A kültér olyan mint egy nő. Természetesen is szép, de lefestve a legszebb. 
+      Mi foltosan festünk, de sok ideig tart (megcsinálni).
+    </p>
+    </div>
 
-    <br />
+    <!--Anchor Links-->
+
+    <a class="anchorlinks" id="al-coating2" href="#al-ft1">
+      BURKOLÁS<img src="img/global_img/insulation-logo.png" id="coating-logo" />
+    </a>
+
+    <a class="anchorlinks" id="al-paint2" href="#al-ft2">
+      FESTÉS<img src="img/global_img/paint-logo.png" id="paint-logo" />
+    </a>
+
+    <hr class="rounded" />
 
     <!-- Szigetelők és burkolók -->
 
-    <p class="field-title"><ins>Szigetelőink és Burkolóink:</ins></p>
-
+    <h2 class="field-title1" id="al-ft1">Szigetelőink és Burkolóink:</h2>
     <p class="units">
       Név: Koszos Ernő <br />
       Szakképzettség: A vérében van, apjával Koszos Gézával számtalan házat
@@ -54,9 +54,8 @@
       <br />
       Referencia: "Jó van az úgy!" Facebook csoport. <br />
       Elérhetőség: +36 1/268-6601
+      <img src="img/ext_img/koszos-pic.jpg" id="koszos-pic">
     </p>
-
-    <br />
 
     <p class="units">
       Név: Ördög József <br />
@@ -65,22 +64,21 @@
       Referencia: Adolf Hitler (✝), Saddam Hussein (✝), Ossama Bin Laden (✝),
       2Pac (✝) <br />
       Elérhetőség: +36 70/666-0666
+      <img src="img/ext_img/ordog-pic.jpg" id="ordog-pic">
     </p>
 
-    <br />
+    <hr class="rounded" />
 
     <!-- Painter (Exterior) -->
 
-    <p class="field-title"><ins>Festőink:</ins></p>
-
+    <h2 class="field-title2" id="al-ft2">Festőink:</h2>
     <p class="units">
-      Név: Vollern Ferenc <br />
+      Név: Vollein Ferenc <br />
       Szakképzettség: "Szent Marci megkereszteli édesanyját." <br />
       Referencia: Ferenc Pápa <br />
       Elérhetőség: +36 30/195-5505
+      <img src="img/ext_img/vollern-pic.jpg" id="vollein-pic">
     </p>
-
-    <br />
 
     <p class="units">
       Név: Kiss Béla <br />
@@ -88,15 +86,19 @@
       Kiss Ernő testvére <br />
       Referencia: A szülei és Kiss Ernő <br />
       Elérhetőség: +36 30/741-5974
+      <img src="img/ext_img/kissbela-pic.jpg" id="kissbela-pic">
     </p>
 
-    <br />
+    <!-- AnchorLink to Top -->
+
+    <a id="anchorlinktop" href="#top"
+      ><img id="up-arrow1" src="img/global_img/up-arrow.png" />UGRÁS A LAPTETEJÉRE
+      <img id="up-arrow2" src="img/global_img/up-arrow.png" /></a
+    ><br />
 
     <!-- Footer -->
 
-    <footer>
-      <p>Copyright © Magyarország Korm...... Mesteremberek SZJÍ Kft. 2023</p>
-    </footer>
+    <?php require_once('footer.php') ?>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
@@ -107,5 +109,6 @@
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>

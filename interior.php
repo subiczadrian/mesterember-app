@@ -15,65 +15,71 @@
     <link rel="stylesheet" href="style.css" />
     <title>EM - Beltér</title>
 
-    <!-- Background -->
+   <!-- NavBar -->
 
-    <style>
-      body {
-        background-image: url(utilities_and_energy_crm.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-      }
-    </style>
-  </head>
-  <body>
-    <?php require_once('navbar.php') ?>
+  <?php require_once('navbar.php') ?>
 
-    <br />
+ <!-- Description -->
 
-    <!-- Description -->
-
-    <p class="int-desc">
+ <div class="desc-container container">
+    <p class="int-desc" id="int-desc-long"><img src="img/int_img/interior-logo.png" class="desc-pic">
       A beltér egy ház szíve, lelke. Szép házban kényelmesedik el az ember, ezért készítünk csúnya
-      belsőt, hogy ne kényelmesedjen el az ember. <br />
-      Figyelmeztetés! <br />
+      belsőt, hogy ne kényelmesedjen el az ember.</p>
+
+      <p class="int-desc"><img src="img/int_img/alert.png" class="desc-pic" id="alert-pic">
+      Figyelmeztetés! <br>
       Miután Józsi felmondott nálunk, ellopta az egyetlen vízmértéket, szóval nem megy az egyenes.
-      <br />
-      Figyelmeztetés! <br />
+      </p>
+      
+      <p class="int-desc"><img src="img/int_img/alert.png" class="desc-pic" id="alert-pic">
+      Másik Figyelmeztetés! <br />
       Lakatos munkát nem tudunk végezni, mivel Kalányos MájkülDzsekszont tegnap elvitték a Jagellók.
-    </p>
-    <br />
+      </p>
+      </div>
+
+    <!--Anchor Links-->
+
+    <a class="anchorlinks" id="al-coating" href="#al-ft1">
+      BURKOLÁS<img src="img/global_img/insulation-logo.png" id="coating-logo" />
+    </a>
+
+    <a class="anchorlinks" id="al-paint" href="#al-ft2">
+      FESTÉS<img src="img/global_img/paint-logo.png" id="paint-logo" />
+    </a>
+
+    <hr class="rounded" />
 
     <!-- Burkolók -->
 
-    <p class="field-title"><ins>Burkolóink:</ins></p>
-
+    <h2 class="field-title1" id="al-ft1">Burkolóink:</h2>
     <p class="units">
       Név: Gipsz Jakab <br />
       Szakképzettség: Lego szedés,tehergépkocsi szerelés, gipszkarton felrakás (OKJ) <br />
       Referencia: "Jó van az úgy!" Facebook csoport. <br />
       Elérhetőség: +36 52/753-9512
+      <img src="img/int_img/gipsz-jakab.jpg" id="gipsz-pic">
     </p>
 
     <p class="units">
       Név: Kőműves Kelemen <br />
-      Szakképzettség: Csempe felrakás (kis mérték), csempe leverés a fallal együtt (mesterfokon)
+      Szakképzettség: Csempe felrakás (kis mérték), csempe leverés a fallal együtt (mesterfokon), várfalépítés (profi)
       <br />
-      Referencia: Terike néni (✝) <br />
+      Referencia: Kőmívesné (✝) <br />
       Elérhetőség: +36 70/456-3219
+      <img src="img/int_img/komuves-kelemen.jpg" id="komuves-pic">
     </p>
 
-    <br />
+    <hr class="rounded" />
 
     <!-- Painter (Interior) -->
 
-    <p class="field-title"><ins>Festőink:</ins></p>
-
+    <h2 class="field-title2" id="al-ft2">Festőink:</h2>
     <p class="units">
       Név: Kiss Ernő<br />
       Szakképzettség: Étel festés, húsvéti tojás festés<br />
       Referencia: Napsugár Óvoda Katica Csoport <br />
       Elérhetőség: +36 20/321-7894
+      <img src="img/int_img/kiss-erno.jpg" id="kisserno-pic">
     </p>
 
     <p class="units">
@@ -82,15 +88,19 @@
       <br />
       Referencia: A szülei <br />
       Elérhetőség: +36 30/741-5974
+      <img src="img/int_img/iksz-ipszilon.jpg" id="iksz-pic">
     </p>
 
-    <br />
+    <!-- AnchorLink to Top -->
+
+    <a id="anchorlinktop" href="#top"
+      ><img id="up-arrow1" src="img/global_img/up-arrow.png" />UGRÁS A LAPTETEJÉRE
+      <img id="up-arrow2" src="img/global_img/up-arrow.png" /></a
+    ><br />
 
     <!-- Footer -->
 
-    <footer>
-      <p>Copyright © Magyarország Korm...... Mesteremberek SZJÍ Kft. 2023</p>
-    </footer>
+    <?php require_once('footer.php') ?>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
@@ -101,5 +111,6 @@
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
