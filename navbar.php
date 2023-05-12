@@ -21,21 +21,23 @@
         <a class="nav-link" href="company-information.php">Céginformáció</a>
       </li>
       <?php if(isset($_SESSION["user_id"])): ?>
-      <li class="nav-item">
-        <a
-          class="nav-link dropdown-toggle"
-          role="button"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          Munkatársaink
-        </a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="interior.php">Beltér</a></li>
-          <li><a class="dropdown-item" href="exterior.php">Kültér</a></li>
-          <li><a class="dropdown-item" href="utilities.php">Közművek</a></li>
-        </ul>
-      </li>
+      <div class="dropdown">
+        <li class="nav-item">
+          <a
+            class="nav-link dropdown-toggle"
+            role="button"
+            data-bs-toggle='dropdown'
+            aria-expanded="false"
+          >
+            Munkatársaink
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="interior.php">Beltér</a></li>
+            <li><a class="dropdown-item" href="exterior.php">Kültér</a></li>
+            <li><a class="dropdown-item" href="utilities.php">Közművek</a></li>
+          </ul>
+        </li>
+      </div>
       <?php endif; ?>
     </ul>
   </div>
