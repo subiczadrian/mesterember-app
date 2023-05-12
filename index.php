@@ -48,7 +48,7 @@
       <p id="jobs3">Elektromos hálózat kiépítése<img src="img/index_img/job-pic3.png" id="job-pic3"></p>
       <p id="jobs4">Gáz bevezetés<img src="img/index_img/job-pic4.png" id="job-pic4"></p>
       <p id="jobs5">Vízvezeték kiépítése<img src="img/index_img/job-pic5.png" id="job-pic5"></p>
-      <img src="img/index_img/line.png" id="line">
+      
     </div>
 
     <!-- Footer -->
