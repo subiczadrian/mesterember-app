@@ -1,8 +1,12 @@
 <?php
+    $host = 'localhost';
+    $dbname = 'mesterember_app_users'; 
+    $username = 'root';
+    $password = '';
     $is_invalid = false;
 
     if($_SERVER['REQUEST_METHOD'] === 'POST'){
-        $mysqli = require __DIR__ . '/database.php';
+        $mysqli = new mysqli($host, $username, $password, $dbname);
 
         $sql = sprintf('SELECT * FROM user WHERE username = "%s"', $mysqli -> real_escape_string($_POST["username"]));
 
